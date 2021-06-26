@@ -1,0 +1,191 @@
+﻿body {
+
+}
+
+main > article > section{
+    margin-right: 180px;
+}
+
+section > section{
+    margin-bottom: 150px;
+}
+
+/*Headers & Paragraphs*/
+
+h2{
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-family: Rubik Bold;
+    font-size: 36px;
+}
+
+h3{
+    font-family: Rubik Bold;
+    font-size: 24px;
+}
+
+main section p {
+    font-family: Rubik;
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+p.bigger{
+    font-family: Rubik;
+    font-size: 36px;
+    width: 650px;
+}
+
+/*Icons for Materials and Time*/
+
+div.instructions{
+    display: block;
+    position: relative;
+    margin-top: 25px;
+}
+
+    div.instructions div , .instructions img , div.instructions p{
+        display: inline-block;
+        position: relative;
+    }
+
+    div.instructions div{
+        width: 52px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    div.instructions img{
+        margin: 0 auto;
+    }
+
+    div.instructions.icon_time img{
+        margin-right: 12px;
+        margin-left: auto;
+    }
+
+    div.instructions.icon_time p{
+        bottom: 10px;
+    }
+
+/*Instructions List*/
+
+main ol{
+    margin-top: 200px;
+    margin-right: -50px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+}
+
+    main ol li {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        margin-bottom: 35px;
+        font-size: 24px;
+        line-height: 1.5;
+        counter-increment: my-awesome-counter;
+    }
+
+        main ol li:before {
+            display: flex;
+            vertical-align: middle;
+            align-items: center;
+            margin-left: 50px;
+            font-family: Rubik Bold;
+            font-size: 36px;
+            content: counter(my-awesome-counter);
+        }    
+
+/*Images*/
+
+.float_left , .float_large{
+    float: left;
+    top: -100px;
+}
+
+.float_left{
+    margin-left: 85px;
+}
+
+.float_large{
+    margin-left: 50px;
+}
+
+/*gallary*/
+
+#gallery {
+    width: 855px;
+    height: 620px;
+    background-image: url('../images/gallary/רקע.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.garrow {
+    width: 85px;
+    height: 130px;
+    background-color: transparent;
+    border: hidden;
+    color: transparent;
+    position: relative;
+    margin-top: 260px;
+    cursor: pointer;
+}
+
+#right_arrow {
+    background-image: url('../images/gallary/רגיל ימין.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-right: 60px;
+}
+
+#left_arrow {
+    background-image: url('../images/gallary/רגיל שמאל.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 60px;
+}
+
+    #left_arrow:hover {
+        background-image: url('../images/gallary/האוור.png');
+    }
+
+#right_arrow:hover {
+    background-image: url('../images/gallary/האוור ימין.png');
+}
+
+#content {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-right: 175px;
+    margin-top: 60px;
+}
+
+#imgFromJs {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+/*Miscellaneous*/
+.did_you_know{
+    background-image: url("../images/general/didyouknow.png");
+    width: 872px;
+    height: 82px;
+    line-height: 3.0;
+    font-size: 24px;
+    text-indent: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+aside{
+    font-size: 24px;
+    margin-bottom: 25px;
+}

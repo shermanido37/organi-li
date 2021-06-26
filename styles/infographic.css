@@ -1,0 +1,12 @@
+﻿body {
+}
+
+main section{
+    margin-right: 100px;
+}
+
+main section iframe{
+    width: 1100px;
+    height: 800px;
+    margin-bottom: 100px;
+}

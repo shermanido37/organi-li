@@ -1,0 +1,51 @@
+﻿body {
+
+}
+
+section#first_section{
+    margin-right: 150px;
+    margin-bottom: 100px;
+    width: 1000px;
+}
+
+main section h2{
+    font-family: Rubik Bold;
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+main section p{
+    margin-top: 25px;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+/*Big Buttons*/
+
+section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+section ul li{
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.big_button {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.big_button img{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,61 @@
+﻿body {
+
+}
+
+main section{
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+main h1{
+    margin-bottom: 50px;
+}
+
+main label{
+    font-family: Rubik Medium;
+    font-size: 24px;
+}
+
+#user_name , #user_email , #user_tel{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-image: url(../images/contact/field_box_narrow.png);
+    width: 794px;
+    height: 71px;
+    text-indent: 25px;
+    font-size: 24px;
+    border: none;
+}
+
+#content{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-image: url("../images/contact/field_box_wide.png");
+    width: 765px;
+    height: 339px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-right: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+    border: none;
+}
+
+#Submit {
+    display: block;
+    background: none;
+    background-image: url("../images/contact/button_send_notpressed.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    border: none;
+    width: 143px;
+    height: 68px;
+    font-family: Rubik;
+    font-size: 27px;
+    color: #315E1A;
+}
+
+    #Submit:hover, #Submit:focus, #Submit:active {
+        background-image: url("../images/contact/button_send_pressed.png");
+        color: #F5E467;
+    }

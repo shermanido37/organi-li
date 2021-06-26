@@ -1,0 +1,36 @@
+﻿body {
+
+}
+
+main section{
+    margin-right: 100px;
+}
+
+main section ul{
+    list-style: none;
+}
+
+main section > ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+main section > ul > li{
+    margin-top: 25px;
+    width: 275px;
+}
+
+    main section > ul > li > a, main section > ul > li > div {
+        display: block;
+        font-family: Rubik Bold;
+        margin-bottom: 10px;
+    }
+
+    main section > ul > li > ul > li > ul > li{
+        margin-right: 50px;
+    }

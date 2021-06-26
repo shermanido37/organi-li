@@ -1,0 +1,383 @@
+﻿/*Layout - arrows, bees, vegetables & flower*/
+
+#layout{
+    background-image: url("../images/homepage/layout.png");
+    height: 3832px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+header {
+    color: #4E7302;
+}
+
+    header p {
+        font-family: Rubik Medium;
+        font-size: 30px;
+        /*font-weight: 400;*/
+        text-align: center;
+    }
+
+h1{
+    font-family: Rubik Black;
+    font-size: 127px;
+    /*font-weight: 900;*/
+    text-align: center;
+    margin-bottom: 30px;
+    /*gif additions*/
+    height: 127px;
+    
+}
+
+#logo{
+    display: block;
+    margin-right: 475px;
+    margin-left: auto;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    width: 302px;
+    height: 355px;
+}
+
+/*Skip to Content*/
+
+#top_tooltip {
+    position: absolute;
+    display: block;
+    margin-right: 125px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+    #top_tooltip:focus, #top_tooltip:active {
+        background-image: url("../images/homepage/top_tooltip.png");
+        width: 161px;
+        height: 56px;
+        text-align: center;
+        line-height: 2;
+        overflow: visible;
+    }
+
+/*Menu*/
+
+/*Menu Button*/
+
+#menu_corner #menu_button {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
+
+    #menu_corner #menu_button:focus + label {
+        outline: #000000 solid 1px;
+        box-shadow: 0 0px 8px #FFFFFF;
+    }
+
+    #menu_corner #menu_button:not(:checked) + label {
+        display: block;
+        position: relative;
+        width: 73px;
+        height: 67px;
+        background: url("../images/general/menu_icon.png") no-repeat;
+    }
+
+    #menu_corner #menu_button:not(:checked):hover + label, #menu_button:not(:checked):focus + label {
+        background: url("../images/general/menu_icon_pressed.png") no-repeat;
+    }
+
+    #menu_corner #menu_button:checked + label {
+        display: block;
+        position: relative;
+        width: 62px;
+        height: 62px;
+        background: url("../images/general/x_notpressed.png") no-repeat;
+    }
+
+    #menu_corner #menu_button:checked:hover + label, #menu_button:checked:focus + label {
+        background: url("../images/general/x_pressed.png") no-repeat;
+    }
+
+/*Corner*/
+
+#menu_corner {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/homepage/menu_background.png");
+    width: 114px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    z-index: 99;
+}
+
+    #menu_corner > div { /*this is the div surrounding the menu button*/
+        width: 73px;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+.toolbar_button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: none;
+}
+
+/*Frames*/
+#frame_left, #frame_right {
+    position: relative;
+    top: 0px;
+    z-index: 0;
+}
+
+#frame_left{
+    float: left;
+    left: -20px;
+}
+
+#frame_right{
+    float: right;
+    right: -20px;
+}
+
+/*Down Arrows*/
+
+#arrows {
+    background-image: url("../images/homepage/arrows_notpressed.png");
+    width: 164px;
+    height: 180px;
+    display: block;
+    right: 15px;
+    margin-right: 570px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+    #arrows:hover , #arrows:focus{
+        background-image: url("../images/homepage/arrows_pressed.png");
+    }
+
+/*Islands of Content*/
+
+/*Large Island*/
+
+.island_large {
+    background-image: url("../images/homepage/large_island.png");
+    width: 839px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#start_of_content > div {
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    width: 650px;
+}
+
+#start_of_content h2{
+    font-size: 36px;
+    font-family: Rubik Bold;
+}
+
+#start_of_content p{
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+#letsgo{
+    font-family: Rubik Bold;
+    font-size: 24px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+#letsgo a{
+    display: block;
+    background-image: url("../images/homepage/letsgo_notpressed.png");
+    width: 84px;
+    height: 55px;
+    margin-top: 10px;
+    margin-right: 26px;
+    margin-left: auto;
+}
+
+#letsgo a:hover , #letsgo a:focus{
+    background-image: url("../images/homepage/letsgo_pressed.png");
+}
+
+/*Normal Islands*/
+
+.island {
+    display: block;
+    position: relative;
+    background-image: url("../images/homepage/island.png");
+    width: 467px;
+    height: 479px;
+}
+
+    .island > img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 90px;
+        right: -20px;
+    }
+
+    #batata{
+        margin-right: 0;
+        margin-left: 0;
+        right: 15px;
+    }
+
+    .island .button {
+        position: relative;
+        display: block;
+        bottom: -100px;
+        right: -20px;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+
+#island1{
+    margin-right: 225px;
+    margin-left: auto;
+    margin-top: 75px;
+}
+
+#island2{
+    margin-right: 725px;
+    margin-left: auto;
+    margin-top: -85px;
+}
+
+#island3{
+    margin-right: 210px;
+    margin-left: auto;
+    margin-top: -105px;
+}
+
+#island4{
+    margin-top: 5px;
+    margin-right: 575px;
+    margin-left: auto;
+}
+
+#finalisland{
+    margin-right: 335px;
+    margin-left: auto;
+    top: -20px;
+}
+
+/*Final Island Content*/
+
+.island_header {
+    position: relative;
+    display: block;
+    top: 30px;
+    font-family: Rubik Medium;
+    font-weight: 400;
+    text-indent: 135px;
+    line-height: 2;
+    font-size: 60px;
+    color: #315E1A;
+}
+
+#laststep {
+    position: relative;
+    display: block;
+    top: 35px;
+    margin-right: 95px;
+    margin-left: 0;
+}
+
+#holytomato {
+    position: relative;
+    display: block;
+    float: left;
+    top: -260px;
+    margin-left: 25px;
+}
+
+/*Footer*/
+
+footer a.arrow{
+    position: relative;
+    float: left;
+}
+
+#footer_image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto;
+    background-image: url("../images/homepage/footer.png");
+    width: 1145px;
+    height: 885px;
+}
+
+#footer_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 880px;
+    width: 1145px;
+}
+
+    #footer_container div.footer_text {
+        display: inline-block;
+        position: relative;
+        margin-right: 95px;
+        color: black;
+    }
+
+    div.footer_text h3{
+        font-family: Rubik Bold;
+        font-size: 27px;
+        margin-top: 40px;
+        margin-right: 25px;
+    }
+
+    div.footer_text li{
+        list-style: none;
+        font-size: 27px;
+        margin-right: 25px;
+    }
+
+#footer_text_tall{
+    background-image: url("../images/homepage/footer_tall.png");
+    width: 248px;
+    height: 340px;
+}
+
+#footer_text_wide{
+    background-image: url("../images/homepage/footer_wide.png");
+    width: 328px;
+    height: 279px;
+}
+
+.footer_links{
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+
+.footer_icon {
+    display: block;
+    margin-left: 25px;
+    margin-top: 25px;
+}

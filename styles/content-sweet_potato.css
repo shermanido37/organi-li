@@ -1,0 +1,138 @@
+﻿body {
+    
+}
+
+main > article > section {
+    margin-right: 200px;
+    margin-top: 125px;
+}
+
+section#start_of_content{
+    margin-top: 0px;
+}
+
+/*Headers*/
+
+h1{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: Rubik Bold;
+    font-size: 36px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    
+}
+
+/*Paragraphs*/
+
+article p{
+    font-size: 24px;
+    margin-bottom: 25px;
+    width: 750px;
+    line-height: 1.5;
+}
+
+main article ol{
+    margin-bottom: 25px;
+    width: 650px;
+}
+
+main article li{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+p.par_large{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 900px;
+    font-family: Rubik Light;
+    font-size: 36px;
+}
+
+aside.did_you_know{
+    background-image: url("../images/general/didyouknow_thick.png");
+    width: 651px;
+    height: 131px;
+}
+
+aside.for_more{
+    margin-right: 200px;
+}
+
+aside.did_you_know p{
+    position: relative;
+    display: block;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+/*Images*/
+
+/*Trails*/
+
+img#trail1{
+    margin-top: -25px;
+    margin-right: 500px;
+    z-index: 0;
+}
+
+section#step2{
+    margin-top: -200px;
+}
+
+img#trail2{
+    margin-right: 50px;
+    margin-top: -25px;
+    z-index: 0;
+}
+
+section#step3{
+    margin-top: -250px;
+}
+
+img#trail3{
+    margin-right: 515px;
+    margin-top: -25px;
+    z-index: 0;
+}
+
+section#step4{
+    margin-top: -200px;
+}
+
+img#trail4{
+    margin-top: -40px;
+    margin-right: 50px;
+    z-index: 0;
+}
+
+section#last_section {
+    margin-top: -200px;
+}
+
+/*Floating Images*/
+
+.float_left , .float_large{
+    float: left;
+}
+
+.float_left {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.float_large {
+    margin-left: 25px;
+}
+
+#garden_batata{
+    margin-top: -75px;
+}
+
+#holy_batata{
+    margin-top: -250px;
+    margin-left: 25px;
+}

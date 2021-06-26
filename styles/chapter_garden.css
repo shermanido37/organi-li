@@ -1,0 +1,89 @@
+﻿body {
+
+}
+
+main section{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main h2 {
+    font-family: Rubik Bold;
+}
+
+main section p , main h2{
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section#first_section{
+    margin-right: 100px;
+    margin-top: 0px;
+    width: 1000px;
+    line-height: 1.5;
+}
+
+section.indent_content h2 , section.indent_content p{
+    margin-right: 90px;
+}
+
+/*Arrow Buttons*/
+
+.arrow_button_small{
+    margin-right: 25px;
+}
+
+/*Big Buttons*/
+
+section ul {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#first_list , #second_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+#first_list ul{
+    background-image: url("../images/chapter_page/list_arrow.png");
+    background-repeat: no-repeat;
+    width: 1099px;
+    height: 76px;
+}
+
+#second_list ul{
+    background-image: url("../images/chapter_page/list_arrow_2.png");
+    background-repeat: no-repeat;
+    width: 1099px;
+    height: 76px;
+}
+
+section li {
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+
+.big_button {
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+}
+
+.big_button div{
+    margin-top: 15px;
+    margin-bottom: 65px;
+    font-size: 21px;
+}
+
+.big_button.single_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
